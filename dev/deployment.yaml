@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: nginx:alpine
+          image: ffribeiro/docker-image-pipeline:1.0
           ports:
             - containerPort: 80
